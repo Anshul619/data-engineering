@@ -6,14 +6,14 @@
 
 ![](HadoopStack.drawio.png)
 
-| Stack                                                                                                 | Remarks                                                              |
-|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [Apache MapReduce](../DataProcessing/ApacheMapReduce/Readme.md)                                       | Data Processing/ETL Batch Processing                                 |
-| [Apache HDFS](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_FileStorages/ApacheHDFS.md) | Distributed file storage                                             |
-| [Apache Yarn](../../DevOps-SRE/2_ContainerOrchestration/ApacheYarn.md)                                | Cluster Management                                                   |
-| [Apache Zookeeper](../../DevOps-SRE/5_ClusterCoordination/ApacheZookeeper.md)                         | Cluster coordination                                                 |
-| [Apache Hive](../DataConsumption/ApacheHive.md)                                                       | Data Analytics                                                       |
-| Hadoop Common                                                                                         | It contains packages and libraries which are used for other modules. |
+| Stack                                                                                                   | Remarks                                                              |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [Apache MapReduce](../DataProcessing/ApacheMapReduce/Readme.md)                                         | Data Processing/ETL Batch Processing                                 |
+| [Apache HDFS](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_FileStorages/ApacheHDFS.md)   | Distributed file storage                                             |
+| [Apache Yarn](https://github.com/Anshul619/DevOps-SRE/blob/main/2_ContainerOrchestration/ApacheYarn.md) | Cluster Management                                                   |
+| [Apache Zookeeper](https://github.com/Anshul619/DevOps-SRE/blob/main/ApacheZookeeper.md)                | Cluster coordination                                                 |
+| [Apache Hive](../DataConsumption/ApacheHive.md)                                                         | Data Analytics                                                       |
+| Hadoop Common                                                                                           | It contains packages and libraries which are used for other modules. |
 
 # How Hadoop works?
 - Hadoop makes it easier to use all the storage and processing capacity in cluster servers, and to execute distributed processes against huge amounts of data. 

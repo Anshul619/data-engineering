@@ -1,4 +1,16 @@
-# Layers in Big data architecture
+# Data Engineering
+- Data engineering is the backbone of modern data-driven organizations. 
+
+This repository is a structured collection of concepts, learning notes, and practical examples that span the complete data lifecycle:
+- Ingestion – batch, streaming, and data connectors.
+- ETL & Processing – transforming data with distributed frameworks.
+- Storage – data lakes, warehouses, and distributed storage systems.
+- Workflow Scheduling – orchestrating reliable pipelines.
+- Consumption & Analytics – enabling insights with BI tools such as Looker.
+
+This repo is designed as a learning resource and reference guide for anyone exploring or working in the field of data engineering.
+
+# Layers in data architecture
 
 | Layer                    | Description                                                                                    | Remarks                                                                                                          |
 |--------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -9,7 +21,7 @@
 | Data Consumption         | Enable your user personas for [purpose-built analytics](DataConsumption) and machine learning. |                                                                                                                  |
 | Security and governance  | Protect your data across the layers and data access management.                                |                                                                                                                  |
 
-# General Use Cases of Big Data Processing
+# General Use Cases of data processing
 
 | Use Case                             | Processing Type                                                         | Remarks                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +40,7 @@
 | Ranking System                       | [Batch Processing](DataProcessing/ProcessingTypes/BatchProcessing.md)   |                                                                                                                                                                                                                                                                                                                                          |
 | Machine learning systems             | [Batch Processing](DataProcessing/ProcessingTypes/BatchProcessing.md)   | Example - Classifiers (spam filters, anomaly detection, image recognition etc.)                                                                                                                                                                                                                                                          |
 
-# Various Services in Data layers
+# Various Services in data layers
 
 ![](https://github.com/Anshul619/AWS-Services/blob/main/0_UseCaseDesigns/Data-Architecture-ETL-Ingestion-Processing-Analytics.png)
 

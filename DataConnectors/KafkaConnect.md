@@ -4,7 +4,7 @@
 - This opens up possibilities for constructing and managing the operations of producers and consumers, as well as establishing reusable links between these solutions. 
 - A connector, for example, may capture [all database updates](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/5_Database-Internals/ChangeDataCapture/Readme.md) and ensure that they are made available in a [Kafka topic](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/Kafka/Readme.md).
 
-![](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/Kafka/assets/Kafka-Connect.png)
+![](Kafka-Connect.png)
 
 # Key Features of Connectors
 - Pluggable Software Components
