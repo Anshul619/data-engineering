@@ -1,25 +1,19 @@
 # Data Engineering
-- Data engineering is the backbone of modern data-driven organizations. 
-
-This repository is a structured collection of concepts, learning notes, and practical examples that span the complete data lifecycle:
-- Ingestion – batch, streaming, and data connectors.
-- ETL & Processing – transforming data with distributed frameworks.
-- Storage – data lakes, warehouses, and distributed storage systems.
-- Workflow Scheduling – orchestrating reliable pipelines.
-- Consumption & Analytics – enabling insights with BI tools such as Looker.
-
-This repo is designed as a learning resource and reference guide for anyone exploring or working in the field of data engineering.
+- Data engineering is the backbone of modern data-driven organizations.
+- This repo is designed as a learning resource and reference guide for anyone exploring or working in the field of data engineering.
 
 # Layers in data architecture
+- This repository is a structured collection of concepts, learning notes, and practical examples that span the complete data lifecycle.
 
-| Layer                    | Description                                                                                    | Remarks                                                                                                          |
-|--------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Data Ingestion/Streaming | [Bring your data](DataIngestion.md) into your data platform.             |                                                                                                                  |
-| Data Processing          | Create your [data processing pipelines](DataProcessing).                                       | [Apache Spark vs MapReduce vs Flink vs Storm vs Kafka Streams](DataProcessing/SparkVsMapReduceVsFlinkVsStorm.md) |
-| Data Cataloging          | Store your metadata.                                                                           |                                                                                                                  |
-| Data Storage             | Store your [structured and unstructured data](DataStorage).                                    | [Data warehouses vs lake](DataStorage/DataWarehousesVsLake.md)                                                   |
-| Data Consumption         | Enable your user personas for [purpose-built analytics](DataConsumption) and machine learning. |                                                                                                                  |
-| Security and governance  | Protect your data across the layers and data access management.                                |                                                                                                                  |
+| Layer                    | Description                                                                                                           |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Data Ingestion/Streaming | [Bring your data](DataIngestion.md) into your data platform.                                                          |
+| ELT & Data Processing    | transforming data with [distributed frameworks](DataProcessing).                                                      |
+| Data Cataloging          | Store your metadata.                                                                                                  |
+| Data Storage             | Store your [structured and unstructured data](DataStorage) - data lakes, warehouses, and distributed storage systems. |
+| Data Consumption         | Enable your user personas for [purpose-built analytics](DataConsumption) and machine learning.                        |
+| Workflow Scheduling      | orchestrating reliable pipelines                                                                                      |
+| Security and governance  | Protect your data across the layers and data access management.                                                       |
 
 # General Use Cases of data processing
 
@@ -56,3 +50,5 @@ This repo is designed as a learning resource and reference guide for anyone expl
 # Read more
 - [AWS Summit ASEAN 2023 | Simplify data management with modern data architecture on AWS (INSO203)](https://www.youtube.com/watch?v=hwF0AZaUc6U)
 - [What is Data Pipeline? | Why Is It So Popular?](https://www.youtube.com/watch?v=kGT4PcTEPP8)
+- [Apache Spark vs MapReduce vs Flink vs Storm vs Kafka Streams](DataProcessing/SparkVsMapReduceVsFlinkVsStorm.md)
+- [Data warehouses vs lake](DataStorage/DataWarehousesVsLake.md)
